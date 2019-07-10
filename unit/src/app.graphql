@@ -1,0 +1,9 @@
+type Query {
+  patapon(id: Int!): Patapon
+  patapons: [Patapon]!
+}
+
+type Patapon {
+  id: Int!
+  job: String!
+}
